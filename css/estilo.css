@@ -1,0 +1,325 @@
+
+body {
+	font-family: Helvetica,Arial,sans-serif;		
+}
+
+/* Menu principal
+------------------------*/
+
+#logo span {
+	font-family: 'Ravi Prakash', cursive;
+	color: #fff;
+	font-size: 40px;
+	border: 2px solid #fff;
+	padding: 2px;
+	
+}
+
+.menu {
+	float: right;
+	margin-right: 250px;
+	margin-top: 20px;
+}
+
+.menu a {
+	margin-right: 0px;
+	padding: 5px;
+}
+
+.navbar-collapse a:hover {
+	background: #4169e1;
+}
+
+
+.previsao {
+	margin-right: 40px;
+	
+}
+
+.previsao {
+	font-family: 'Ravi Prakash', cursive;
+	color: #fff;
+}
+
+/*Section
+-----------------------*/
+
+.div-img {
+	width: 50%;
+}
+
+#slide {
+	margin-top: 15px;
+}
+
+
+.slide-img {
+	width: 100%;
+	height: 100%;
+}
+
+div.carousel-caption {
+	padding-bottom: 0;
+}
+
+.inner p {
+	background: black;
+	opacity: 0.7;
+	border-radius: 10px;
+	color: white;
+	font-size: 1.2em;
+}
+
+.inner a {
+	margin-bottom: 5px;
+}
+
+.setas {
+	background: black;
+	width: 5%;
+	height: 12%;
+	margin-top: 30%;
+}
+
+/*Menu lateral Esporte
+-----------------*/
+
+.side h4 {
+	text-align: center;
+	margin-top: 2px;
+	color: #007fff;
+}
+
+.side {
+	width: 24%;
+	margin-left: 10px;
+}
+
+.menu-lateral  {
+	font-size: 0.9em;
+	list-style: none;
+
+}
+
+.menu-lateral a {
+	display: inline;
+
+}
+
+hr {
+	margin: 12px 12px 12px 0;
+	width: 100%;
+	background: #87cefa;
+}
+
+.linha {
+	width: 100%;
+}
+
+.menu-lateral p {
+	display: inline;
+}
+
+.not-central h4 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.img-artigo {
+	margin-left: 17px;
+}
+
+.titulo-artigo {
+	position: absolute;
+	top: 185px;
+	left: 50px;
+	color: white;
+	font-size: 1.3em;
+}
+
+h5 {
+	text-align: center;
+	margin: 10px 17px;
+	margin-right: 0px;
+	background: #007fff;
+	color: white;
+}
+
+
+/* Galeria
+-----------------*/
+
+.galeria {
+	border: 2px solid #007fff;
+	border-radius: 5px;
+	
+}
+
+.galeria a {
+	text-decoration: none;
+}
+
+.galeria img:hover {
+	transform: scale(1.1);
+}
+
+.galeria img {
+	width: 43%;
+	margin: 10px 2px 5px;
+	transition: transform .5s ease;
+}
+
+.galeria div {
+	display: inline;
+	margin: 7px 8px ;
+	padding-top: 5px;
+}
+
+/* Formulário Contato
+---------------*/
+
+.formulario {
+	margin: 5px;
+	background: #007fff;
+	border-radius: 5px;
+	color: white;
+}
+
+.formulario div {
+	padding: 8px ;
+
+}
+
+.formulario textarea, input {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.formulario label {
+	margin-bottom: 0;
+}
+
+.formulario button {
+	margin: 0 0 5px 15px;
+}
+
+/* Rodapé
+------------------*/
+
+.rodape {
+	text-align: center;
+	height: 80px;
+	color: #fff;
+	padding-top: 30px;
+	
+}
+
+.rede-social a {
+	transition: transform .5s ease
+}
+
+.rede-social a:hover {
+	transform: scale(1.1);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-primary{
+		font-size: 0.8em;
+	}
+
+	.div-img {
+	width: 100%;
+	}
+
+	.side {
+	width: 100%;
+	margin-left: 10px 5px;
+	display: block;
+	}
+
+	.galeria div {
+	display: inline;
+	margin: 7px 3px ;
+	padding-top: 5px;
+}
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	.div-img {
+	width: 100%;
+	}
+
+	.side {
+
+	width: 48%;
+	margin-left: 10px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.inner p {
+	font-size: 0.8em;
+	}
+
+	.btn-primary{
+		font-size: 0.8em;
+	}
+
+	.div-img {
+	width: 100%;
+	}
+
+	.side {
+	width: 48%;
+	margin-left: 10px 5px;
+	}
+
+	.galeria div {
+	display: inline;
+	margin: 7px 4px ;
+	padding-top: 5px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.inner p {
+	font-size: 1em;
+	}
+
+	.menu-lateral  {
+	font-size: 0.8em;
+	}
+
+	.galeria div {
+	display: inline;
+	margin: 7px 5px ;
+	padding-top: 5px;
+}
+
+	.div-img {
+	width: 100%;
+	}
+
+	.side {
+
+	width: 48%;
+	margin-left: 10px 5px;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+
